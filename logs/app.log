@@ -1,0 +1,381 @@
+Fetched Todos
+2024-12-Wed Fetched Todos
+2024-12-Wed 10:15:01 Fetched Todos
+2024-12-11-Wed 10:15:42 Fetched Todos
+11-12-2024-Wed 10:16:34 Fetched Todos
+11-12-2024-Wed 10:18:06 Fetched Todos
+ErrorException: Undefined variable $title in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:14
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(14): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $title in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:14
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(14): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $item in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:16
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(16): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $item in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:16
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(16): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $item in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:16
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(16): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $item in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:16
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(16): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $item in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:16
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(16): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+ErrorException: Undefined variable $item in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig:16
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\todo.twig(16): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('todo.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('todo.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('todo.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(16): Slim\Slim->render('todo.twig', Array)
+#6 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#7 [internal function]: {closure}()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#14 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#15 {main}
+11-12-2024-Wed 12:27:47 Fetched Todos
+11-12-2024-Wed 12:30:49 Fetched Todos
+11-12-2024-Wed 12:32:34 Fetched Todos
+IdiormMethodMissingException: Method orderBy() does not exist in class ORMWrapper in D:\xampp\htdocs\slim2_idiorm_paris\vendor\j4mie\idiorm\idiorm.php:2275
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\vendor\j4mie\paris\paris.php(699): ORM->__call('orderBy', Array)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(15): Model::__callStatic('orderBy', Array)
+#2 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#3 [internal function]: {closure}()
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#11 {main}
+IdiormMethodMissingException: Method order_by() does not exist in class ORMWrapper in D:\xampp\htdocs\slim2_idiorm_paris\vendor\j4mie\idiorm\idiorm.php:2275
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\vendor\j4mie\paris\paris.php(699): ORM->__call('order_by', Array)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(15): Model::__callStatic('order_by', Array)
+#2 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#3 [internal function]: {closure}()
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#11 {main}
+11-12-2024-Wed 12:34:24 Fetched Todos
+IdiormMethodMissingException: Method order_by_dsc() does not exist in class ORMWrapper in D:\xampp\htdocs\slim2_idiorm_paris\vendor\j4mie\idiorm\idiorm.php:2275
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\vendor\j4mie\paris\paris.php(699): ORM->__call('order_by_dsc', Array)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(15): Model::__callStatic('order_by_dsc', Array)
+#2 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(30): App\Controllers\TodoController->index()
+#3 [internal function]: {closure}()
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#11 {main}
+11-12-2024-Wed 12:34:37 Fetched Todos
+11-12-2024-Wed 12:34:42 Fetched Todos
+11-12-2024-Wed 12:45:39 Fetched Todos
+11-12-2024-Wed 12:46:01 Fetched Todos
+11-12-2024-Wed 12:46:02 Fetched Todos
+11-12-2024-Wed 12:46:37 Fetched Todos
+11-12-2024-Wed 12:46:43 Fetched Todos
+11-12-2024-Wed 12:47:00 Fetched Todos
+11-12-2024-Wed 12:47:07 Fetched Todos
+11-12-2024-Wed 12:47:11 Fetched Todos
+11-12-2024-Wed 12:47:18 Fetched Todos
+11-12-2024-Wed 12:48:21 Fetched Todos
+11-12-2024-Wed 12:48:43 Fetched Todos
+11-12-2024-Wed 12:48:51 Fetched Todos
+11-12-2024-Wed 12:54:02 Fetched Todos
+11-12-2024-Wed 12:54:17 Fetched Todos
+11-12-2024-Wed 12:54:27 Fetched Todos
+11-12-2024-Wed 12:54:37 Fetched Todos
+RuntimeException: View cannot render `404.twig` because the template does not exist in D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php:272
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('404.twig', NULL)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('404.twig', NULL)
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('404.twig')
+#3 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(7): Slim\Slim->render('404.twig')
+#4 [internal function]: {closure}()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(596): call_user_func(Object(Closure))
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1365): Slim\Slim->notFound()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#12 {main}
+11-12-2024-Wed 12:57:12 Fetched Todos
+11-12-2024-Wed 12:57:14 Fetched Todos
+11-12-2024-Wed 12:57:57 Fetched Todos
+11-12-2024-Wed 13:46:43 Fetched Todos
+11-12-2024-Wed 13:47:13 Fetched Todos
+11-12-2024-Wed 13:47:57 Fetched Todos
+11-12-2024-Wed 13:48:06 Fetched Todos
+11-12-2024-Wed 13:48:59 Fetched Todos
+11-12-2024-Wed 13:49:42 Fetched Todos
+11-12-2024-Wed 13:50:18 Fetched Todos
+11-12-2024-Wed 13:50:19 Fetched Todos
+11-12-2024-Wed 13:50:25 Fetched Todos
+11-12-2024-Wed 13:50:32 Fetched Todos
+11-12-2024-Wed 13:50:48 Fetched Todos
+11-12-2024-Wed 13:50:59 Fetched Todos
+11-12-2024-Wed 14:59:26 Fetched Todos
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
+ErrorException: Undefined variable $data_description in D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig:18
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Templates\home.twig(18): Slim\Slim::handleErrors(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(278): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(255): Slim\View->render('home.twig', Array)
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('home.twig', NULL)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(755): Slim\View->display('home.twig')
+#5 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(17): Slim\Slim->render('home.twig', Array)
+#6 [internal function]: {closure}()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#10 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#11 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#14 {main}
