@@ -24,10 +24,10 @@ $(document).ready(function () {
             $.ajax({
                 method: "PUT",
                 url: "http://localhost:8080/todos",
-                headers: {
-                    'csrf_name': $('#csrf_name').val(),
-                    'csrf_value': $('#csrf_value').val()
-                },
+                // headers: {
+                //     'csrf_name': $('#csrf_name').val(),
+                //     'csrf_value': $('#csrf_value').val()
+                // },
                 contentType: "application/json",
                 dataType: "json",
                 data: JSON.stringify({
@@ -48,8 +48,8 @@ $(document).ready(function () {
                                 y: 30
                             },
                         }).showToast();
-                        $('#csrf_name').val(response?.csrf?.name);
-                        $('#csrf_value').val(response?.csrf?.value);
+                        // $('#csrf_name').val(response?.csrf?.name);
+                        // $('#csrf_value').val(response?.csrf?.value);
                     } else if (!response?.success) {
                         Toastify({
                             text: response?.message,
@@ -102,13 +102,13 @@ $(document).ready(function () {
         let formData = { description: description }
         $.ajax({
             method: "POST",
-            headers: {
-                'csrf_name': $('#csrf_name').val(),
-                'csrf_value': $('#csrf_value').val()
-            },
+            // headers: {
+            //     'csrf_name': $('#csrf_name').val(),
+            //     'csrf_value': $('#csrf_value').val()
+            // },
             contentType: 'application/json',
             url: "http://localhost:8080/todos",
-            data: JSON.stringify(formData),
+            data: { description: description },
             success: (response) => {
                 if (response?.success) {
                     Toastify({
@@ -136,8 +136,8 @@ $(document).ready(function () {
                         `
                     )
 
-                    $('#csrf_name').val(response?.csrf?.name);
-                    $('#csrf_value').val(response?.csrf?.value);
+                    // $('#csrf_name').val(response?.csrf?.name);
+                    // $('#csrf_value').val(response?.csrf?.value);
 
                     $('#add-new')[0].reset()
                     $('#add-new-submit').attr('disabled', false)
@@ -161,7 +161,7 @@ $(document).ready(function () {
                 $('#add-new-submit').attr('disabled', false)
             },
             error: function (x, s, e) {
-                console.error(x, s, e)
+                console.error("X ==> ", x, " S ==>", s, " E ==>> ", e)
                 $('#add-new-submit').attr('disabled', false)
                 Toastify({
                     text: x?.responseJSON?.message || "Something went wrong",
@@ -179,8 +179,8 @@ $(document).ready(function () {
                 $('#overlay').hide();
                 $('#loader').hide();
                 $('#add-new-submit').attr('disabled', false)
-                $('#csrf_name').val(x?.responseJSON?.csrf?.name);
-                $('#csrf_value').val(x?.responseJSON?.csrf?.value);
+                // $('#csrf_name').val(x?.responseJSON?.csrf?.name);
+                // $('#csrf_value').val(x?.responseJSON?.csrf?.value);
             }
         });
     })
@@ -199,10 +199,10 @@ $(document).ready(function () {
         $.ajax({
             method: 'PUT',
             url: 'http://localhost:8080/todos/' + rowId,
-            headers: {
-                'csrf_name': $('#csrf_name').val(),
-                'csrf_value': $('#csrf_value').val()
-            },
+            // headers: {
+            //     'csrf_name': $('#csrf_name').val(),
+            //     'csrf_value': $('#csrf_value').val()
+            // },
             data: {
                 is_done: 1
             },
@@ -227,8 +227,8 @@ $(document).ready(function () {
                             y: 30
                         },
                     }).showToast();
-                    $('#csrf_name').val(response?.csrf?.name);
-                    $('#csrf_value').val(response?.csrf?.value);
+                    // $('#csrf_name').val(response?.csrf?.name);
+                    // $('#csrf_value').val(response?.csrf?.value);
                 } else if (!response?.success) {
                     Toastify({
                         text: response?.message,
@@ -308,10 +308,10 @@ $(document).ready(function () {
         $.ajax({
             method: 'PUT',
             url: 'http://localhost:8080/todos/' + rowId,
-            headers: {
-                'csrf_name': $('#csrf_name').val(),
-                'csrf_value': $('#csrf_value').val()
-            },
+            // headers: {
+            //     'csrf_name': $('#csrf_name').val(),
+            //     'csrf_value': $('#csrf_value').val()
+            // },
             data: {
                 description: inputVal
             },
@@ -333,8 +333,8 @@ $(document).ready(function () {
                     $(this).attr('disabled', false).html(
                         `<button class="saveBtn">Save</button>`
                     );
-                    $('#csrf_name').val(response?.csrf?.name);
-                    $('#csrf_value').val(response?.csrf?.value);
+                    // $('#csrf_name').val(response?.csrf?.name);
+                    // $('#csrf_value').val(response?.csrf?.value);
                 } else if (!response?.success) {
                     Toastify({
                         text: response?.message,
@@ -397,10 +397,10 @@ $(document).ready(function () {
                 $.ajax({
                     method: 'PUT',
                     url: 'http://localhost:8080/todos/' + rowId,
-                    headers: {
-                        'csrf_name': $('#csrf_name').val(),
-                        'csrf_value': $('#csrf_value').val()
-                    },
+                    // headers: {
+                    //     'csrf_name': $('#csrf_name').val(),
+                    //     'csrf_value': $('#csrf_value').val()
+                    // },
                     data: {
                         color: colorVal
                     },
@@ -472,10 +472,10 @@ $(document).ready(function () {
         $.ajax({
             method: 'DELETE',
             url: 'http://localhost:8080/todos/' + rowId,
-            headers: {
-                'csrf_name': $('#csrf_name').val(),
-                'csrf_value': $('#csrf_value').val()
-            },
+            // headers: {
+            //     'csrf_name': $('#csrf_name').val(),
+            //     'csrf_value': $('#csrf_value').val()
+            // },
             dataType: 'json',
             success: function (response) {
                 if (response?.success) {
@@ -494,8 +494,8 @@ $(document).ready(function () {
 
                     $('#loader').hide()
                     list.remove();
-                    $('#csrf_name').val(response?.csrf?.name);
-                    $('#csrf_value').val(response?.csrf?.value);
+                    // $('#csrf_name').val(response?.csrf?.name);
+                    // $('#csrf_value').val(response?.csrf?.value);
                 } else if (!response?.success) {
                     Toastify({
                         text: response?.message,

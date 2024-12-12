@@ -379,3 +379,305 @@ Stack trace:
 #12 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
 #13 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
 #14 {main}
+ErrorException: Attempt to read property "description" on array in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:33
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(33): Slim\Slim::handleErrors(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(22): App\Controllers\TodoController->test()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#10 {main}
+ErrorException: Attempt to read property "description" on array in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:33
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(33): Slim\Slim::handleErrors(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(22): App\Controllers\TodoController->test()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#10 {main}
+ErrorException: Attempt to read property "description" on array in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:33
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(33): Slim\Slim::handleErrors(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(22): App\Controllers\TodoController->test()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#10 {main}
+ErrorException: Attempt to read property "description" on array in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:33
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(33): Slim\Slim::handleErrors(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(22): App\Controllers\TodoController->test()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#10 {main}
+ErrorException: Attempt to read property "_table" on array in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:33
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(33): Slim\Slim::handleErrors(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(22): App\Controllers\TodoController->test()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#10 {main}
+ErrorException: Attempt to read property "orm" on array in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:33
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(33): Slim\Slim::handleErrors(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(22): App\Controllers\TodoController->test()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(21): Slim\Slim->run()
+#10 {main}
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Error while fetching todos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'item_positio' in 'order clause'
+Fetching Todos
+Error while fetching todos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'item_positio' in 'order clause'
+Fetching Todos
+Invalid ID format: fgbhg is not numeric
+Todo found with ID: 1
+Invalid ID format: fsdfsd is not numeric
+Invalid ID format: dqwdqw is not numeric
+Invalid ID format: dqwdqw is not numeric
+Fetching Todos
+Fetching Todos
+Fetching Todos
+Todo found with ID: 1
+Todo found with ID: 1
+Todo found with ID: 1
+Invalid ID format: 1ww is not numeric
+Todo not found with ID: 21
+Invalid ID format: gevhg is not numeric
+Todo not found with ID: 21
+Invalid ID format: 21jcsvaj is not numeric
+Invalid ID format: "cds is not numeric
+Invalid ID format: "cds" is not numeric
+Fetching Todos
+Todo not found with ID: 21
+Invalid ID format: fds is not numeric
+Todo deleted successfully.
+Fetching Todos
+Error while fetching todos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'item_positio' in 'order clause'
+Fetching Todos
+Error while fetching todos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'item_positio' in 'order clause'
+Fetching Todos
+Error while fetching todos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'item_positio' in 'order clause'
+Fetching Todos
+Error while fetching todos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'item_positio' in 'order clause'
+Fetching Todos
+Fetching Todos
+Description is required.
+Description is required.
+Description is required.
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Array to string conversion
+ErrorException: Array to string conversion in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:126
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(126): Slim\Slim::handleErrors(2, 'Array to string...', 'D:\\xampp\\htdocs...', 126)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(28): App\Controllers\TodoController->store()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(28): Slim\Slim->run()
+#10 {main}
+ErrorException: Array to string conversion in D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php:126
+Stack trace:
+#0 D:\xampp\htdocs\slim2_idiorm_paris\src\Controllers\TodoController.php(126): Slim\Slim::handleErrors(2, 'Array to string...', 'D:\\xampp\\htdocs...', 126)
+#1 D:\xampp\htdocs\slim2_idiorm_paris\src\routes.php(28): App\Controllers\TodoController->store()
+#2 [internal function]: {closure}()
+#3 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Route.php(468): call_user_func_array(Object(Closure), Array)
+#4 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1355): Slim\Route->dispatch()
+#5 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#6 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#7 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#8 D:\xampp\htdocs\slim2_idiorm_paris\vendor\slim\slim\Slim\Slim.php(1300): Slim\Middleware\PrettyExceptions->call()
+#9 D:\xampp\htdocs\slim2_idiorm_paris\public\index.php(28): Slim\Slim->run()
+#10 {main}
+Fetching Todos
+Fetching Todos
+Todo updated successfully.
+Fetching Todos
+Todo deleted successfully.
+Fetching Todos
+No positions provided.
+Fetching Todos
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Description is required.
+Description is required.
+Description is required.
+Description is required.
+Description is required.
+Description is required.
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Todo added successfully.
+Todo added successfully.
+Todo added successfully.
+Todo added successfully.
+Todo added successfully.
+Todo added successfully.
+Todo added successfully.{"todo":{"orm":{},"_table":"todos"}}
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Error while adding todo: Array to string conversion
+Todo added successfully.
+Fetching Todos
+Todo updated successfully.
+Todo updated successfully.
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Todo added successfully.
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Todo added successfully.
+Todo added successfully.
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Fetching Todos
+Fetching Todos
+No positions provided.
+No positions provided.
+No positions provided.
+No positions provided.
+No positions provided.
+No positions provided.
+No positions provided.
+Todo updated successfully.
+Fetching Todos
+No positions provided.
+Todo updated successfully.
+Todo updated successfully.
+Todo deleted successfully.
+Todo updated successfully.
+Todo deleted successfully.
+Todo updated successfully.
+No positions provided.
+Fetching Todos
+Fetching Todos
+No positions provided.
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Fetching Todos
+Error while adding todo: Trying to access array offset on value of type null
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"
+Fetching Todos
+Error while adding todo: Undefined array key "description"

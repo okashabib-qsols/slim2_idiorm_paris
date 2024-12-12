@@ -6,13 +6,21 @@
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 		<link rel="stylesheet" href="/styles/style.css">
 		<title>
-			Todo
+			<?php echo $title; ?>
 		</title>
 	</head>
 	<body>
 		<div id="page-wrap">
 			<h1>Todo App</h1>
 			
+			<div id="overlay"></div>
+
+			<!-- Loader -->
+			<div id="loader" role="status">
+				<img src="/images/loader.gif" width="50" height="50" alt="Loading...">
+				<span class="sr-only">Loading...</span>
+			</div>
+
 			<div id="main">
 				<ul id="list" class="ui-sortable">
 					<?php if (empty($data)): ?>
@@ -36,8 +44,6 @@
 				</ul>
 				
 				<form id="add-new" method="post">
-					<input type="hidden" id="csrf_name" name="{{csrf.keys.name}}" value="{{csrf.name}}">
-					<input type="hidden" id="csrf_value" name="{{csrf.keys.value}}" value="{{csrf.value}}">
 					<input type="text" id="description" placeholder="New Todo" name="description"/>
 					<button type="submit" id="add-new-submit" class="button">Add</button>
 				</form>
