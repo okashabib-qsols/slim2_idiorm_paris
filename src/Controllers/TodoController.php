@@ -21,7 +21,7 @@ class TodoController
             $todos = Todo::order_by_asc('item_position')->find_array();
 
             if (!empty($todos)) {
-                $this->app->render('todo/todo.twig', [
+                $this->app->render('todo/todo.php', [
                     'success' => true,
                     'message' => 'Got resource successfully',
                     'data' => $todos,
@@ -91,7 +91,7 @@ class TodoController
     public function store()
     {
         try {
-            $data = $this->app->request->post();
+            $data = json_decode($this->app->request->getBody(), true);
 
             if (empty(trim($data['description']))) {
                 $response = [
@@ -193,7 +193,8 @@ class TodoController
     public function update_position()
     {
         try {
-            $data = $this->app->request->post('position');
+            // $data = $this->app->request->post('position');
+            $data = json_decode($this->app->request->getBody(), true);
 
             if (!$data) {
                 echo json_encode([
@@ -205,7 +206,7 @@ class TodoController
                 return;
             }
 
-            foreach ($data as $item) {
+            foreach ($data['position'] as $item) {
                 $todo = Todo::find_one($item['id']);
                 if ($todo) {
                     $todo->item_position = $item['position'];

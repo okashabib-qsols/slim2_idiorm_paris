@@ -95,11 +95,12 @@ $(document).ready(function () {
 
         $('#add-new-submit').attr('disabled', true)
         var description = $('#description').val().trim()
+        var token = $('#csrfToken').val()
 
         $('#overlay').show();
         $('#loader').show();
 
-        let formData = { description: description }
+        let formData = { description: description, csrf_token: token }
         $.ajax({
             method: "POST",
             // headers: {
@@ -108,7 +109,7 @@ $(document).ready(function () {
             // },
             contentType: 'application/json',
             url: "http://localhost:8080/todos",
-            data: { description: description },
+            data: JSON.stringify(formData),
             success: (response) => {
                 if (response?.success) {
                     Toastify({
@@ -300,7 +301,6 @@ $(document).ready(function () {
             return
         }
         let inputVal = row.find('.editDescription').val()
-        row.find('span').html(inputVal)
         $('#overlay').show();
         $('#loader').show();
         $(this).attr('disabled', true)
@@ -330,6 +330,7 @@ $(document).ready(function () {
                             y: 30
                         },
                     }).showToast();
+                    row.find('span').html(inputVal)
                     $(this).attr('disabled', false).html(
                         `<button class="saveBtn">Save</button>`
                     );

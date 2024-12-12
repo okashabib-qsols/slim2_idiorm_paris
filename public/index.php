@@ -11,6 +11,7 @@ if (!function_exists('get_magic_quotes_gpc')) {
     }
 }
 
+session_start();
 $app = new Slim([
     'log.enabled' => true,
     'log.level' => \Slim\Log::DEBUG,
@@ -21,6 +22,11 @@ $app = new Slim([
 // views
 $app->view(new \Slim\View());
 $app->view()->setTemplatesDirectory(__DIR__ . '/../src/Templates');
+
+//hooks
+$hook = require __DIR__ . '/../src/hooks.php';
+$hook($app);
+$app->applyHook('csrf.token');
 
 // routes
 $routes = require __DIR__ . '/../src/routes.php';
